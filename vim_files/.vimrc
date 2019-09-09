@@ -1,7 +1,7 @@
 "This maps F9 key to execute the current python code
 set relativenumber
 set number
-
+set laststatus=2
 
 autocmd FileType python nnoremap <buffer> <F9> :exec '!clear; python' shellescape(@%, 1)<cr>
 
@@ -11,6 +11,7 @@ map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
 
+"keymap for fuzzy file finder
 map ; :Files<CR>
 
 
@@ -25,6 +26,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'tpope/vim-surround'
 Plug 'junegunn/fzf', {'dir': '~/.fzf' , 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
+Plug 'itchyny/lightline.vim'
 
 
 " Initialize plugin system
