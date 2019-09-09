@@ -11,6 +11,7 @@ map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
 
+map ; :Files<CR>
 
 
 " Specify a directory for plugins
@@ -22,6 +23,9 @@ call plug#begin('~/.vim/plugged')
 
 " Shorthand notation; fetches https://github.com/junegunn/vim-easy-align
 Plug 'tpope/vim-surround'
+Plug 'junegunn/fzf', {'dir': '~/.fzf' , 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
+
 
 " Initialize plugin system
 call plug#end()
