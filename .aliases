@@ -1,5 +1,5 @@
 alias v="vim" \
-	c="~./scripts/cpt" \
+	c="~/.scripts/cpt" \
 	p="doas pkg" \
 	yt="youtube-dl -x --audio-format mp3" \
 	g="git" \
