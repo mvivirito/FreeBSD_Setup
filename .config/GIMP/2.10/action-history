@@ -1,0 +1,9 @@
+# GIMP action-history
+
+(history-item "file-quit" 2)
+(history-item "windows-tab-position" 0)
+(history-item "file-open" 0)
+(history-item "tools-measure" 0)
+(history-item "tools-flip" 1)
+
+# end of action-history
