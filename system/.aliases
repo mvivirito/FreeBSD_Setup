@@ -1,6 +1,8 @@
 alias v="vim" \
 	c="~/.scripts/cpt" \
+	cdd="cd ~/dotfiles" \
 	p="doas pkg" \
+	s="xstow" \
 	yt="youtube-dl -x --audio-format mp3" \
 	g="git" \
 	batt="apm | grep life | cut -d: -f2 | uniq" \
