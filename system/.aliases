@@ -1,6 +1,7 @@
 alias v="vim" \
 	c="~/.scripts/cpt" \
 	cdd="cd ~/dotfiles" \
+	cds="cd ~/suckless" \
 	p="doas pkg" \
 	s="xstow" \
 	yt="youtube-dl -x --audio-format mp3" \
