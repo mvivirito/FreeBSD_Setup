@@ -1,8 +1,0 @@
-alias v="vim" \
-	c="~/.scripts/cpt" \
-	p="doas pkg" \
-	yt="youtube-dl -x --audio-format mp3" \
-	g="git" \
-	batt="apm | grep life | cut -d: -f2 | uniq" \
-	bright="xrandr --output eDP-1 --brightness" \
-	rm="rm -i" \
