@@ -13,8 +13,7 @@
 (session-info "toplevel"
     (factory-entry "gimp-single-image-window")
     (position 200 100)
-    (size 1024 768)
-    (open-on-exit))
+    (size 1024 768))
 (session-info "toplevel"
     (factory-entry "gimp-toolbox-window")
     (position 0 0)
