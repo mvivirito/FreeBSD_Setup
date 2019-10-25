@@ -1015,6 +1015,28 @@
         (proc-arg 16 "box-right-drawable" "Box right face")
         (proc-arg 16 "cyl-top-drawable" "Cylinder top face (set these to -1 if not used)")
         (proc-arg 16 "cyl-bottom-drawable" "Cylinder bottom face")))
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/mail/mail" 1566467964
+    (proc-def "plug-in-mail-image" 1
+         "Send the image by email"
+         "The preferred email composer is used to send emails and must be properly configured."
+         "Adrian Likins, Reagan Blundell"
+         "Adrian Likins, Reagan Blundell, Daniel Risacher, Spencer Kimball and Peter Mattis"
+         "1995-1997"
+         "Send by E_mail..."
+         1
+        (menu-path "<Image>/File/Send")
+        (icon icon-name -1 "gtk-edit")
+         "*"
+         9 0
+        (proc-arg 0 "run-mode" "The run mode { RUN-INTERACTIVE (0), RUN-NONINTERACTIVE (1) }")
+        (proc-arg 13 "image" "Input image")
+        (proc-arg 16 "drawable" "Drawable to save")
+        (proc-arg 4 "filename" "The name of the file to save the image in")
+        (proc-arg 4 "to-address" "The email address to send to")
+        (proc-arg 4 "from-address" "The email address for the From: field")
+        (proc-arg 4 "subject" "The subject")
+        (proc-arg 4 "comment" "The Comment")
+        (proc-arg 0 "encapsulation" "ignored")))
 (plug-in-def "${gimp_plug_in_dir}/plug-ins/lighting/lighting" 1566467956
     (proc-def "plug-in-lighting" 1
          "Apply various lighting effects to an image"

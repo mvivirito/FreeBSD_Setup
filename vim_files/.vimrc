@@ -2,6 +2,7 @@
 set relativenumber
 set number
 set laststatus=2
+set nowrap
 
 autocmd FileType python nnoremap <buffer> <F9> :exec '!clear; python' shellescape(@%, 1)<cr>
 
@@ -13,6 +14,7 @@ map <C-l> <C-w>l
 
 "keymap for fuzzy file finder
 map ; :Files<CR>
+map <F7> :!~/.scripts/cpt <CR>
 
 
 " Specify a directory for plugins
