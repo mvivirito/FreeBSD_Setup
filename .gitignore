@@ -3,3 +3,5 @@ vim_files/.vim/plugged/*
 /config/.config/GIMP/*
 /config/.config/GIMP/2.10/*
 config/.config/GIMP/2.10/*
+/config/*
+config/*

@@ -10,4 +10,5 @@ alias v="vim" \
 	bright="xrandr --output eDP-1 --brightness" \
 	rm="rm -i" \
 	lsn="ls -la | grep '\->*'" \
+	o="xdg-open" \
 
