@@ -1,10 +1,13 @@
 !Remove Caps_Lock modifier from real Caps Lock key
 clear Lock
-! Set real Caps Lock key to present as (left) control
-keycode 66 = Hyper_L 
-! Make a fake key to hold the Escape keysym, so xcape can use it
-keycode 255 = Escape
+clear mod4
+
 ! Right-Alt remapped to Super
 remove mod1 = Alt_R
 add mod4 = Alt_R
+
+! Set real Caps Lock key to present as (left) control
+keycode 66 = Alt_R
+! Make a fake key to hold the Escape keysym, so xcape can use it
+keycode 255 = Escape
 

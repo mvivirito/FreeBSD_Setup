@@ -3,9 +3,9 @@ xcape -e '#66=Escape' &
 
 compton -b &
 
-feh --bg-fill /home/mike/images/ghost.jpg
+#feh --bg-fill /home/mike/images/ghost.jpg
 
-# load .Xresources configuration
+#load .Xresources configuration
 xrdb -merge .Xresources
 
 dunst &

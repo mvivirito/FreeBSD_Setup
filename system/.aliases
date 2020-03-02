@@ -1,4 +1,5 @@
-alias v="vim" \
+alias v="nvim" \
+	alias vim="nvim" \
 	c="~/.scripts/cpt" \
 	cdd="cd ~/dotfiles" \
 	cds="cd ~/suckless" \
